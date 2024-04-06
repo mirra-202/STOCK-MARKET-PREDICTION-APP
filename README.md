@@ -13,15 +13,15 @@ This is a simple web application built with Streamlit for predicting stock price
   - View the raw data and forecasted data.
   - Visualize forecasted data and its components using the provided charts.
 
-**CONCEPT USED:**
-Time series analysis is utilized as a fundamental concept for stock price prediction. Here's how time series analysis is applied:
+**CONCEPT USED:** <br>
+Time series analysis is utilized as a fundamental concept for stock price prediction. Here's how time series analysis is applied:<br>
 
-*Data Collection:* The project fetches historical stock price data using the yfinance library. This data typically includes a timestamp (date) and the corresponding stock prices (open, close, high, low, volume) over a specific period.
-Data Exploration: The fetched data is then explored to understand its structure, trends, and patterns. This step involves visualizing the raw time series data to identify any underlying patterns or seasonality.
-*Data Preprocessing:* The data is preprocessed to ensure its quality and compatibility with the forecasting model. This may involve handling missing values, removing outliers, and converting the data into a suitable format for analysis.
-*Modeling:* The Facebook Prophet library is used for time series forecasting. Prophet is designed specifically for forecasting time series data that displays patterns such as trends and seasonality. The historical stock price data is used to train the Prophet model.
-*Forecasting:* Once the model is trained, it can be used to generate forecasts for future time periods. The project allows users to select the number of years they want to forecast and generates predictions accordingly.
-*Visualization:* The forecasted data and its components (trend, seasonality) are visualized using Plotly charts. This enables users to understand the predicted trends and make informed decisions based on the forecasted stock prices.
+*Data Collection:* The project fetches historical stock price data using the yfinance library. This data typically includes a timestamp (date) and the corresponding stock prices (open, close, high, low, volume) over a specific period.<br>
+*Data Exploration:* The fetched data is then explored to understand its structure, trends, and patterns. This step involves visualizing the raw time series data to identify any underlying patterns or seasonality. <br>
+*Data Preprocessing:* The data is preprocessed to ensure its quality and compatibility with the forecasting model. This may involve handling missing values, removing outliers, and converting the data into a suitable format for analysis. <br>
+*Modeling:* The Facebook Prophet library is used for time series forecasting. Prophet is designed specifically for forecasting time series data that displays patterns such as trends and seasonality. The historical stock price data is used to train the Prophet model. <br>
+*Forecasting:* Once the model is trained, it can be used to generate forecasts for future time periods. The project allows users to select the number of years they want to forecast and generates predictions accordingly. <br>
+*Visualization:* The forecasted data and its components (trend, seasonality) are visualized using Plotly charts. This enables users to understand the predicted trends and make informed decisions based on the forecasted stock prices. <br>
 
 **TECHNOLOGIES USED:**
   - Python
